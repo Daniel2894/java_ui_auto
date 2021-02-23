@@ -46,10 +46,11 @@ public class BuyTShirtTest {
         paymentPage.payByBankWire();
 
         bankPaymentPage.confirmOrder();
-        /* This is an assertion without Hamcrest (just testNG):
+
+        // Assertion with just TestNG (Without Hamcrest):
         Assert.assertEquals(orderResumePage.getOrderConfirmation(),"Your order on My Store is complete.");
-         */
-        //Assertion with Hamcrest:
+
+        // Assertion with Hamcrest:
         assertThat(orderResumePage.getOrderConfirmation(), equalTo("Your order on My Store is complete."));
     }
 
