@@ -1,4 +1,4 @@
-# java_ui_auto
+# Framework of UI Automation in Java
 > Framework for UI Automation in Java with Selenium and Hamcrest
 
 The project is a basic UI Automation Framework in Java.
