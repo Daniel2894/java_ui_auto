@@ -6,7 +6,7 @@ The project is a basic UI Automation Framework in Java.
 The tools used are:
 
 * TestNG to write test cases
-* Selenium to interact with the navigator
+* Selenium to interact with Chrome navigator
 * Hamcrest to write assertions
 
-The project contains the dessign patter of POM for UI tests.
+The project contains the Page Object Model (POM) design pattern.
